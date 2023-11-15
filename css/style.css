@@ -1,0 +1,101 @@
+/* Estilo CSS para todo el proyecto */
+
+/* Establecer las fuentes y colores predeterminados */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3 {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Estilo para los párrafos */
+p {
+  margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Estilo para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilo para los botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para los contenedores */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para las secciones */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Estilo para las listas */
+ul, ol {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  margin-bottom: 5px;
+}
+
+/* Estilo para las etiquetas */
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Estilo para las tablas */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilo para las celdas de la tabla */
+.table td, .table th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para las cabeceras de la tabla */
+.table th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
